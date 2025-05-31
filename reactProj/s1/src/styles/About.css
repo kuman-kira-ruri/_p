@@ -1,0 +1,57 @@
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.about-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.company-info {
+  margin-bottom: 3rem;
+}
+
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.info-table th,
+.info-table td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+.info-table th {
+  background-color: #f5f5f5;
+  width: 200px;
+  text-align: left;
+}
+
+.info-table ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.map-container {
+  margin-top: 2rem;
+}
+
+.map-container h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 1rem;
+  }
+
+  .info-table th {
+    width: 120px;
+  }
+} 
