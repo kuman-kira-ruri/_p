@@ -6,7 +6,7 @@ const ProductTableHeader = ({
   handleMouseDown 
 }) => {
   const tableWidth = colWidths.reduce((a, b) => a + b, 0);
-
+  const testWidth = 1000; // Example width for testing
   return (
     <div
       className="product-table-header-scroll"

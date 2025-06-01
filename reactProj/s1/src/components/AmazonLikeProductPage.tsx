@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 const dummyProduct = {
   image: "https://m.media-amazon.com/images/I/71Q5sd3pMFL._AC_SL1500_.jpg",

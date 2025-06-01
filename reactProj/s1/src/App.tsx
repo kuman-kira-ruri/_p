@@ -3,11 +3,17 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 import Register from './pages/Register'
+// @ts-ignore
 import NewsPortalSample from './components/NewsPortalSample' /* eslint-disable */
+// @ts-ignore
 import AmazonPaySample from './components/AmazonPaySample' /* eslint-disable */
+// @ts-ignore
 import ProductSearch from './components/ProductSearch' /* eslint-disable */
+// @ts-ignore
 import ProductSearch2 from './components/ProductSearch2' /* eslint-disable */
+// @ts-ignore
 import PriceCompare from './components/PriceCompare' /* eslint-disable */
+// @ts-ignore
 import AmazonLikeProductPage from './components/AmazonLikeProductPage'
 
 const navStyle: React.CSSProperties = {
